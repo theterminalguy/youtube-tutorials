@@ -1,0 +1,35 @@
+package repository
+
+import (
+	"github.com/google/uuid"
+)
+
+type {{.Entity}} struct {
+	ID uuid.UUID
+}
+
+type {{.Entity}}Repository struct{}
+
+func New{{.Entity}}Repository() *{{.Entity}}Repository {
+	return &{{.Entity}}Repository{}
+}
+
+func (*{{.Entity}}Repository) GetAll() (*[]{{.Entity}}, error) {
+	return nil, nil
+}
+
+func (*{{.Entity}}Repository) Get(id uuid.UUID) (*{{.Entity}}, error) {
+	return nil, nil
+}
+
+func (*{{.Entity}}Repository) Create(e *{{.Entity}}) (*{{.Entity}}, error) {
+	return nil, nil
+}
+
+func (r *{{.Entity}}Repository) Update(e *{{.Entity}}) (*{{.Entity}}, error) {
+	return nil, nil
+}
+
+func (r *{{.Entity}}Repository) Delete(id uuid.UUID) error {
+	return nil
+}
