@@ -1,0 +1,37 @@
+.date-time-plugin {
+  width: 210px;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 5px 5px 0 0;
+  background-color: #001f3f;
+  font-family: monospace;
+  color: white;
+}
+
+.icon.calendar {
+  background-image: url(../../../../public/calendar.png);
+  background-size: 16px 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  margin: 0 -1px;
+}
+
+.icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-size: 16px 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  margin: 0 -1px;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.date-time-plugin button:hover {
+  cursor: pointer;
+}
